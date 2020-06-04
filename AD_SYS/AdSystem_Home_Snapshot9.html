@@ -1,0 +1,941 @@
+<!--- start of script !--->
+<HTML>
+ <head>
+  <meta charset="UTF-16"> <!-- A little overkill, but it works !-->
+</head> 
+<HEAD>
+<head>
+  <link rel="stylesheet" href="2DStart_Style_StickySideBarVersion1.01.css">
+</head>
+<TITLE>Welcome to SNU - SNU 2D Viewer</TITLE>
+</HEAD>
+<BODY BGCOLOR="ADD8E6">
+<HR>
+<!-- Sidebar !-->
+<ul>
+  <img src="AdSystemSidebarIconV1.png" alt="Logo" width="219" height="200">
+  <li><a class="active" href="#home">⚙ Ad settings</a></li>
+  <HR>
+  <p>| Navigation |
+  <HR>
+  <li><a href="TOP">Overview</a></li>
+  <details>
+	<summary>...</summary>
+    <li><a href="#TOP">(1) top of page</a></li>
+    <li><a href="#ABOUT">(2) About</a></li>
+  </details>
+  <HR>
+  <li><a href="#GEN">⚙ General</a></li>
+  <details>
+	<summary>(more...)</summary>
+	<li><a href="#ADFORMATS">(1) Advertisement Formats</a></li>
+	<li><a href="#ADTIMING_PT1">(2) Ad timing part 1</a></li>
+	<li><a href="#ADTIMING_PT2">(3) Ad timing part 2</a></li>
+	<li><a href="#ADLOCATION">(4) Ad location</a></li>
+	<li><a href="#ADDURATION">(5) Ad duration</a></li>	
+	<li><a href="#AD_TIMEPERIOD">(6) Ad time period</a></li>
+	<li><a href="#AGERATING">(7) Age rating</a></li>
+	<li><a href="#EMOJIS">(8) Emoji usage</a></li>
+	<li><a href="#MEME">(9) Meme usage</a></li>
+	<li><a href="#LANGUAGE">(10) Language</a></li>
+	<li><a href="#ADCOUNT">(11)) Ad count</a></li>
+  </details>
+  <HR>
+  <li><a href="#FOOD">🍏💦 Food ads</a></li>
+  <details>
+	<summary>(more...)</summary>
+	<li><a href="#BY_RESTAURANT">(1) By restaurant</a></li>
+	<li><a href="#FOOD_AD_SPECS">(2) Specificiations</a></li>
+	<li><a href="#MEAT">(3) Meat</a></li>
+	<li><a href="#VEGETARIAN_VEGAN">(4) Vegetarian;Vegan</a></li>
+	<li><a href="#NATURAL_INGREDIENTS">(5) Natural Ingredients</a></li>
+	<li><a href="#SEAFOOD">(6) Seafood</a></li>
+	<li><a href="#ADULT_FOOD">(7) 21+ food and drink</a></li>
+	<li><a href="#FOODGRAIN">(8) Grain</a></li>
+	<li><a href="#SNACKS">(9) Snacks</a></li>
+	<li><a href="#FOOD_ADDONS">(10) Add-ons</a></li>
+	<li><a href="#DISPLAY">(11) Display</a></li>
+	<li><a href="#COOKING_STYLE">(12) Cooking Style</a></li>
+	<li><a href="#KEYWORDS">(13) Keywords</a></li>
+	<li><a href="#FOODSPEC_SELECTION">(14) Selection</a></li>
+  </details>
+  <li><a href="#POLL">💁👨 Political ads</a></li>
+  <details>
+	<summary>(more...)</summary>
+	<li><a href="#POLL_POSITION">(1) Political Position</a></li>
+	<li><a href="#POLL_COUNTRY">(2) Political country</a></li>
+	<li><a href="#USA_POLL_PARTY">(3) US Political Party</a></li>
+	<li><a href="#USA_PRESIDENTS">(4) US presidents</a></li>
+  </details>
+  <li><a href="#TECH">🖥💻 Technology ads</a></li>
+  <details>
+	<summary>(more...)</summary>
+	<li><a href="#TECH_COMPANY">(1) Tech Companies</a></li>
+	<li><a href="#TECH_PRODUCT_USAGE">(2) Product usage</a></li>
+	<li><a href="#TECH_PRODUCT_TYPE">(3) Product type</a></li>
+	<li><a href="#TECH_PRODUCT_PRICE">(4) Product price</a></li>
+	<li><a href="#PHRASE">(5) Phrase</a></li>
+	<li><a href="#GENRE">(6) Genre</a></li>
+	<li><a href="#GAMES">(7) Game ads</a></li>
+  </details>
+  <!-- <li><a href="#">Placeholder</a></li> !-->
+  <li><a href="#ADVERTISER_SETTINGS">💲🤑 Advertiser settings</a></li>
+  <details>
+	<summary>(more...)</summary>
+	<li><a href="#ADVERTISER:ADTYPE">(1) Ad type</a></li>
+	<li><a href="#ADVERTISER:BLACKLIST">(2) Blacklist</a></li>
+  </details>
+  <HR>
+  <li><a href="#OTHER">Other</a></li>
+  <HR>
+  <li><a href="#Snapshots">Snapshots</a></li>
+  <li><a href="#SNAPSHOTS1-10">Snapshots 1-10</a></li>
+  <li><a href="#SNAPSHOTS11-20">Snapshots 11-20</a></li>
+  <HR>
+  <li><a href="#LIST_OF_SPECIAL_CHARS_USED">List of special characters used</a></li>
+  <HR>
+  <li><H6><b>|-- Copyleft Sean Walla Walla 2015-2019 --|</b></H6></li>
+  <HR>
+</ul>
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+<HR>
+<H1 id="home">Ad settings</H1>
+<HR>
+<H1 id="TOP">Welcome to the SNU ad settings center!</H1>
+<img src="PLACEHOLDER.png" alt="Placeholder" width="800" height="320">
+<HR>
+<H2 id="ABOUT">About</H2>
+<img src="ABOUT_ICON.png" alt="(?)" width="256" height="256">
+<H2>About SNU ad settings</H2>
+<p>This ad engine gives you complete control over what ads you want to see on SNU. You have the freedom to choose any ad you want, block and keep ads all the way down to the keywords said in the ad, or the objects in the ad.</p>
+<p>You can control their location, their topic, their owner, their product, and EVERYTHING about them. This is a lot of power to give.</p>
+<p>To keep it fair, however you will always need to keep at least 5 ads enabled.</p>
+<p>This system should also push advertisers to make better, and more diverse advertisements that the consumers (you) will enjoy.</p>
+<p>Take a look around these settings and feel the power of control at your fingertips</p>
+<HR>
+<H1 id="GEN">General</H1>
+<img src="Gear-icon.png" alt="⚙" width="256" height="256">
+<H2>⚙ General settings</H2>
+<HR>
+<H3>Navigation</H3>
+<p><b>01 | </b><a href="#ADFORMATS">Ad formats</a></p>
+<p><b>02 | </b><a href="#ADTIMING_PT1">Ad timing part 1</a></p>
+<p><b>03 | </b><a href="#ADTIMING_PT2">Ad timing part 2</a></p>
+<p><b>04 | </b><a href="#ADLOCATION">Ad location</a></p>
+<p><b>05 | </b><a href="#ADDURATION">Ad duration</a></p>
+<p><b>06 | </b><a href="#AD_TIMEPERIOD">Ad release date time period</a></p>
+<p><b>07 | </b><a href="#AGERATING">Ad age rating</a></p>
+<p><b>08 | </b><a href="#EMOJI">Emoji usage inside ad</a></p>
+<p><b>09 | </b><a href="#MEME">Meme usage inside ad</a></p>
+<p><b>10 | </b><a href="#LANGUAGE">Ad language</a></p>
+<p><b>11 | </b><a href="#ADCOUNT">Ad count</a></p>
+<HR>
+<H2 id="ADFORMATS">Advertisement formats</H2>
+ <form>
+  <input type="checkbox" name="F1" value=""> Video ads on videos<br>
+  <input type="checkbox" name="F1" value=""> Video ads on images<br>
+  <input type="checkbox" name="F1" value=""> Video ads on music<br>
+  <input type="checkbox" name="F1" value=""> Video ads on blogs<br>
+  <input type="checkbox" name="F1" value=""> Image ads on videos<br>
+  <input type="checkbox" name="F1" value=""> Image ads on images<br>
+  <input type="checkbox" name="F1" value=""> Image ads on music<br>
+  <input type="checkbox" name="F1" value=""> Image ads on blogs<br>
+  <input type="checkbox" name="F1" value=""> GIF ads on videos<br>
+  <input type="checkbox" name="F1" value=""> GIF ads on images<br>
+  <input type="checkbox" name="F1" value=""> GIF ads on music<br>
+  <input type="checkbox" name="F1" value=""> GIF ads on blogs<br>
+  <input type="checkbox" name="F1" value=""> Audio ads on videos<br>
+  <input type="checkbox" name="F1" value=""> Audio ads on images<br>
+  <input type="checkbox" name="F1" value=""> Audio ads on music<br>
+  <input type="checkbox" name="F1" value=""> Audio ads on blogs<br>
+  <input type="checkbox" name="SA" value="All" > Enable all/any<br>
+</form> 
+<HR>
+<H2 id="ADTIMING_PT1">Ad timing part 1</H2>
+<form>
+  <input type="checkbox" name="F1" value=""> Before video<br>
+  <input type="checkbox" name="F1" value=""> During video<br>
+  <input type="checkbox" name="F1" value=""> After video<br>
+</form>
+<HR>
+<H2 id="ADTIMING_PT2">Ad timing part 2</H2>
+<H3>Video ads</H3>
+<form>
+  <input type="radio" name="F1" value=""> Any<br>
+  <input type="radio" name="F1" value=""> Every 30 seconds<br>
+  <input type="radio" name="F1" value=""> Every Minute<br>
+  <input type="radio" name="F1" value=""> Every 2 Minutes<br>
+  <input type="radio" name="F1" value=""> Every 3 Minutes<br>
+  <input type="radio" name="F1" value=""> Every 4 Minutes<br>
+  <input type="radio" name="F1" value=""> Every 5 Minutes<br>
+  <input type="radio" name="F1" value=""> Every 6 Minutes<br>
+  <input type="radio" name="F1" value=""> Every 7 Minutes<br>
+  <input type="radio" name="F1" value=""> Every 8 Minutes<br>
+  <input type="radio" name="F1" value=""> Every 9 Minutes<br>
+  <input type="radio" name="F1" value=""> Every 10 Minutes<br>
+</form>
+<HR>
+<H2 id="ADLOCATION">Ad location</H2>
+<form>
+  <input type="checkbox" name="F1" value=""> On the sidebar<br>
+  <input type="checkbox" name="F1" value=""> Under the video<br>
+  <input type="checkbox" name="F1" value=""> In the video<br>
+  <input type="checkbox" name="F1" value=""> Inside the music<br>
+</form>
+<HR>
+<H2 id="ADDURATION">Ad duration</H2>
+<form>
+  <input type="checkbox" name="F1" value=""> Any<br>
+  <input type="checkbox" name="F1" value=""> Less than 5 seconds<br>
+  <input type="checkbox" name="F1" value=""> Between 5-15 seconds<br>
+  <input type="checkbox" name="F1" value=""> Between 15-30 seconds<br>
+  <input type="checkbox" name="F1" value=""> Between 30-60 seconds<br>
+  <input type="checkbox" name="F1" value=""> Between 60-90 seconds<br>
+  <input type="checkbox" name="F1" value=""> Between 90-120 seconds<br>
+  <input type="checkbox" name="F1" value=""> Between 120-150 seconds<br>
+  <input type="checkbox" name="F1" value=""> Between 150-180 seconds<br>
+  <input type="checkbox" name="F1" value=""> Between 180-240 seconds<br>
+  <input type="checkbox" name="F1" value=""> Between 240-300 seconds<br>
+  <input type="checkbox" name="F1" value=""> Over 5 minutes (not recommended)<br>
+</form>
+<HR>
+<H2 id="AD_TIMEPERIOD">Time period</H2>
+<H3>From the following year(s)</H3>
+<form>
+	<input type="checkbox" name="F1" value=""> All/any<br>
+	<input type="checkbox" name="F1" value=""> The future (2020+)<br>
+	<input type="checkbox" name="F1" value=""> Current Year (2019)<br>
+	<input type="checkbox" name="F1" value=""> 2018<br>
+	<input type="checkbox" name="F1" value=""> 2017<br>
+	<input type="checkbox" name="F1" value=""> 2016<br>
+	<input type="checkbox" name="F1" value=""> 2015<br>
+	<input type="checkbox" name="F1" value=""> 2014<br>
+	<input type="checkbox" name="F1" value=""> 2013<br>
+	<input type="checkbox" name="F1" value=""> 2012<br>
+	<input type="checkbox" name="F1" value=""> 2011<br>
+	<input type="checkbox" name="F1" value=""> 2010<br>
+	<input type="checkbox" name="F1" value=""> 2009<br>
+	<input type="checkbox" name="F1" value=""> 2008<br>
+	<input type="checkbox" name="F1" value=""> 2007<br>
+	<input type="checkbox" name="F1" value=""> 2006<br>
+	<input type="checkbox" name="F1" value=""> 2005<br>
+	<input type="checkbox" name="F1" value=""> 2004<br>
+	<input type="checkbox" name="F1" value=""> 2003<br>
+	<input type="checkbox" name="F1" value=""> 2002<br>
+	<input type="checkbox" name="F1" value=""> 2001<br>
+	<input type="checkbox" name="F1" value=""> 2000<br>
+	<input type="checkbox" name="F1" value=""> 1999<br>
+	<input type="checkbox" name="F1" value=""> 1998<br>
+	<input type="checkbox" name="F1" value=""> 1997<br>
+	<input type="checkbox" name="F1" value=""> 1996<br>
+	<input type="checkbox" name="F1" value=""> 1995<br>
+	<input type="checkbox" name="F1" value=""> 1994<br>
+	<input type="checkbox" name="F1" value=""> 1993<br>
+	<input type="checkbox" name="F1" value=""> 1992<br>
+	<input type="checkbox" name="F1" value=""> 1991<br>
+	<input type="checkbox" name="F1" value=""> 1990<br>
+	<input type="checkbox" name="F1" value=""> 1989<br>
+	<input type="checkbox" name="F1" value=""> 1988<br>
+	<input type="checkbox" name="F1" value=""> 1987<br>
+	<input type="checkbox" name="F1" value=""> 1986<br>
+	<input type="checkbox" name="F1" value=""> 1985<br>
+	<input type="checkbox" name="F1" value=""> 1984<br>
+	<input type="checkbox" name="F1" value=""> 1983<br>
+	<input type="checkbox" name="F1" value=""> 1982<br>
+	<input type="checkbox" name="F1" value=""> 1981<br>
+	<input type="checkbox" name="F1" value=""> 1980<br>
+	<input type="checkbox" name="F1" value=""> 1979<br>
+	<input type="checkbox" name="F1" value=""> 1978<br>
+	<input type="checkbox" name="F1" value=""> 1977<br>
+	<input type="checkbox" name="F1" value=""> 1976<br>
+	<input type="checkbox" name="F1" value=""> 1975<br>
+	<input type="checkbox" name="F1" value=""> 1974<br>
+	<input type="checkbox" name="F1" value=""> 1973<br>
+	<input type="checkbox" name="F1" value=""> 1972<br>
+	<input type="checkbox" name="F1" value=""> 1971<br>
+	<input type="checkbox" name="F1" value=""> 1970<br>
+	<input type="checkbox" name="F1" value=""> 1969<br>
+	<input type="checkbox" name="F1" value=""> 1968<br>
+	<input type="checkbox" name="F1" value=""> 1967<br>
+	<input type="checkbox" name="F1" value=""> 1966<br>
+	<input type="checkbox" name="F1" value=""> 1965<br>
+	<input type="checkbox" name="F1" value=""> 1964<br>
+	<input type="checkbox" name="F1" value=""> 1963<br>
+	<input type="checkbox" name="F1" value=""> 1962<br>
+	<input type="checkbox" name="F1" value=""> 1961<br>
+	<input type="checkbox" name="F1" value=""> 1960<br>
+	<input type="checkbox" name="F1" value=""> 1959<br>
+	<input type="checkbox" name="F1" value=""> 1958<br>
+	<input type="checkbox" name="F1" value=""> 1957<br>
+	<input type="checkbox" name="F1" value=""> 1956<br>
+	<input type="checkbox" name="F1" value=""> 1955<br>
+</form>
+<HR>
+<H2 id="AGERATING">Age rating</H2>
+<form>
+  <p>Age</p>
+  <input type="checkbox" name="F1" value=""> <br>
+  <input type="checkbox" name="F1" value=""> Any/all<br>
+  <input type="checkbox" name="F1" value=""> Wholesome<br>
+  <input type="checkbox" name="F1" value=""> 0-3<br>
+  <input type="checkbox" name="F1" value=""> 3-7<br>
+  <input type="checkbox" name="F1" value=""> 7-12<br>
+  <input type="checkbox" name="F1" value=""> 12-14<br>
+  <input type="checkbox" name="F1" value=""> 14-18<br>
+  <input type="checkbox" name="F1" value=""> 18+<br> 
+  <HR>
+  <p>Video content</p>
+  <input type="checkbox" name="F1" value=""> [Y]<br>  
+  <input type="checkbox" name="F1" value=""> [Y7]<br>
+  <input type="checkbox" name="F1" value=""> [G]<br>
+  <input type="checkbox" name="F1" value=""> [PG]<br>
+  <input type="checkbox" name="F1" value=""> [PG-13]<br>
+  <input type="checkbox" name="F1" value=""> [TV-14]<br>
+  <input type="checkbox" name="F1" value=""> [MA]<br>
+  <input type="checkbox" name="F1" value=""> [R]<br>
+  <HR>
+  <p>Game content</p>
+  <input type="checkbox" name="F1" value=""> E<br>
+  <input type="checkbox" name="F1" value=""> E10+<br>
+  <input type="checkbox" name="F1" value=""> T<br>
+  <input type="checkbox" name="F1" value=""> M<br>
+  <input type="checkbox" name="F1" value=""> RP<br>    
+</form>
+<HR>
+<H2 id="EMOJI">Emoji usage</H2>
+<form>
+  <input type="checkbox" name="F1" value=""> any <br>
+  <input type="checkbox" name="F1" value=""> Contains Emojis<br>
+  <input type="checkbox" name="F1" value=""> Doesn't contain Emojis<br> 
+  <input type="checkbox" name="F1" value=""> Uses Emojis in the caption <br>
+  <input type="checkbox" name="F1" value=""> Uses facial emojis <br>
+  <input type="checkbox" name="F1" value=""> Uses object emojis<br>
+  <input type="checkbox" name="F1" value=""> 2D emojis<br>
+  <input type="checkbox" name="F1" value=""> 3D emojis<br>
+  <input type="checkbox" name="F1" value=""> Uses Emoticons<br>
+  <input type="checkbox" name="F1" value=""> Uses Jemoticons<br>  
+  <input type="checkbox" name="F1" value=""> Uses Lenny Faces<br>  
+</form>
+<HR>
+<H2 id="MEME">Meme usage</H2>
+<form>
+  <input type="checkbox" name="F1" value=""> any <br>
+  <input type="checkbox" name="F1" value=""> Contains Memes</input>
+</form>
+<HR>
+<H2>Meme era</H2>
+<form>
+  <input type="checkbox" name="F1" value=""> any <br>
+  <input type="checkbox" name="F1" value=""> Current year (2019)<br>
+  <input type="checkbox" name="F1" value=""> 2018<br>
+  <input type="checkbox" name="F1" value=""> 2017<br>
+  <input type="checkbox" name="F1" value=""> 2016<br>
+  <input type="checkbox" name="F1" value=""> 2015<br>
+  <input type="checkbox" name="F1" value=""> 2014<br>
+  <input type="checkbox" name="F1" value=""> 2013<br>
+  <input type="checkbox" name="F1" value=""> 2012<br>
+  <input type="checkbox" name="F1" value=""> 2011<br>
+  <input type="checkbox" name="F1" value=""> 2010<br>
+  <input type="checkbox" name="F1" value=""> 2009<br>
+  <input type="checkbox" name="F1" value=""> 2008<br>
+  <input type="checkbox" name="F1" value=""> 2007<br>
+  <input type="checkbox" name="F1" value=""> 2006<br>
+  <input type="checkbox" name="F1" value=""> 2005<br>
+  <input type="checkbox" name="F1" value=""> 2004<br>
+  <input type="checkbox" name="F1" value=""> 2003<br>
+  <input type="checkbox" name="F1" value=""> 2002<br>
+  <input type="checkbox" name="F1" value=""> 2001<br>
+  <input type="checkbox" name="F1" value=""> 2000<br>
+  <input type="checkbox" name="F1" value=""> 1999<br>
+  <input type="checkbox" name="F1" value=""> 1998<br>
+  <input type="checkbox" name="F1" value=""> 1997<br>
+  <input type="checkbox" name="F1" value=""> 1996<br>
+  <input type="checkbox" name="F1" value=""> 1995<br>
+  <input type="checkbox" name="F1" value=""> 1994<br>
+  <input type="checkbox" name="F1" value=""> 1993 (year of the first internet meme)<br>
+</form>
+<HR>
+<H2 id="LANGUAGE">Language</H2>
+<form>
+	<input type="checkbox" name="F1" value="">All/any<br>
+	<input type="checkbox" name="F1" value="">Multi-lingual<br>
+	<input type="checkbox" name="F1" value="">Afrikaans<br>	
+	<input type="checkbox" name="F1" value="">Albanian<br>
+	<input type="checkbox" name="F1" value="">Amharic<br>
+	<input type="checkbox" name="F1" value="">Arabic<br>
+	<input type="checkbox" name="F1" value="">Armenian<br>
+	<input type="checkbox" name="F1" value="">Azerbaijani<br>
+	<input type="checkbox" name="F1" value="">Bangla<br>
+	<input type="checkbox" name="F1" value="">Basque<br>
+	<input type="checkbox" name="F1" value="">Belarusian<br>
+	<input type="checkbox" name="F1" value="">Bosnian<br>
+	<input type="checkbox" name="F1" value="">Bulgarian<br>
+	<input type="checkbox" name="F1" value="">Burmese<br>
+	<input type="checkbox" name="F1" value="">Catalan<br>
+	<input type="checkbox" name="F1" value="">Cebuano<br>
+	<input type="checkbox" name="F1" value="">Chinese (simplified)<br>
+	<input type="checkbox" name="F1" value="">Chinese (traditional)<br>
+	<input type="checkbox" name="F1" value="">Corsican<br>
+	<input type="checkbox" name="F1" value="">Croatian<br>
+	<input type="checkbox" name="F1" value="">Czech<br>
+	<input type="checkbox" name="F1" value="">Danish<br>
+	<input type="checkbox" name="F1" value="">Dutch<br>
+	<input type="checkbox" name="F1" value="">English<br>
+	<input type="checkbox" name="F1" value="">Esperanto<br>
+	<input type="checkbox" name="F1" value="">Estonian<br>
+	<input type="checkbox" name="F1" value="">Filipino<br>
+	<input type="checkbox" name="F1" value="">Finnish<br>
+	<input type="checkbox" name="F1" value="">French<br>
+	<input type="checkbox" name="F1" value="">Galician<br>
+	<input type="checkbox" name="F1" value="">Georgian<br>
+	<input type="checkbox" name="F1" value="">German<br>
+	<input type="checkbox" name="F1" value="">Greek<br>
+	<input type="checkbox" name="F1" value="">Gujarati<br>
+	<input type="checkbox" name="F1" value="">Hatian Creole<br>
+	<input type="checkbox" name="F1" value="">Hausa<br>
+	<input type="checkbox" name="F1" value="">Hawaiian<br>
+	<input type="checkbox" name="F1" value="">Hebrew<br>
+	<input type="checkbox" name="F1" value="">Hindi<br>
+	<input type="checkbox" name="F1" value="">Hmong<br>
+	<input type="checkbox" name="F1" value="">Hungarian<br>
+	<input type="checkbox" name="F1" value="">Icelandic<br>
+	<input type="checkbox" name="F1" value="">Igbo<br>
+	<input type="checkbox" name="F1" value="">Indonesian<br>
+	<input type="checkbox" name="F1" value="">Irish<br>
+	<input type="checkbox" name="F1" value="">Italian<br>
+	<input type="checkbox" name="F1" value="">Japanese<br>
+	<input type="checkbox" name="F1" value="">Javanese<br>
+	<input type="checkbox" name="F1" value="">Kannada<br>
+	<input type="checkbox" name="F1" value="">Kazakh<br>
+	<input type="checkbox" name="F1" value="">Khmer<br>
+	<input type="checkbox" name="F1" value="">Korean<br>
+	<input type="checkbox" name="F1" value="">Kurdish<br>
+	<input type="checkbox" name="F1" value="">Kyrgyz<br>
+	<input type="checkbox" name="F1" value="">Lao<br>
+	<input type="checkbox" name="F1" value="">Latin<br>
+	<input type="checkbox" name="F1" value="">Latvian<br>
+	<input type="checkbox" name="F1" value="">Lithuanian<br>
+	<input type="checkbox" name="F1" value="">Luxembourgish<br>
+	<input type="checkbox" name="F1" value="">Macedonian<br>
+	<input type="checkbox" name="F1" value="">Malagasy<br>
+	<input type="checkbox" name="F1" value="">Malay<br>
+	<input type="checkbox" name="F1" value="">Malayalam<br>
+	<input type="checkbox" name="F1" value="">Maltese<br>
+	<input type="checkbox" name="F1" value="">Maori<br>
+	<input type="checkbox" name="F1" value="">Marathi<br>
+	<input type="checkbox" name="F1" value="">Mongolian<br>
+	<input type="checkbox" name="F1" value="">Nepali<br>
+	<input type="checkbox" name="F1" value="">Norwegian<br>
+	<input type="checkbox" name="F1" value="">Nyanja<br>
+	<input type="checkbox" name="F1" value="">Pashto<br>
+	<input type="checkbox" name="F1" value="">Persian<br>
+	<input type="checkbox" name="F1" value="">Polish<br>
+	<input type="checkbox" name="F1" value="">Portuguese<br>
+	<input type="checkbox" name="F1" value="">Punjabi<br>
+	<input type="checkbox" name="F1" value="">Romanian<br>
+	<input type="checkbox" name="F1" value="">Russian<br>
+	<input type="checkbox" name="F1" value="">Samoan<br>
+	<input type="checkbox" name="F1" value="">Scottish Gaelic<br>
+	<input type="checkbox" name="F1" value="">Serbian<br>
+	<input type="checkbox" name="F1" value="">Shona<br>
+	<input type="checkbox" name="F1" value="">Sindhi<br>
+	<input type="checkbox" name="F1" value="">Sinhala<br>
+	<input type="checkbox" name="F1" value="">Slovak<br>
+	<input type="checkbox" name="F1" value="">Slovenian<br>
+	<input type="checkbox" name="F1" value="">Somali<br>
+	<input type="checkbox" name="F1" value="">Southern Sotho<br>
+	<input type="checkbox" name="F1" value="">Spanish<br>
+	<input type="checkbox" name="F1" value="">Sundanese<br>
+	<input type="checkbox" name="F1" value="">Swahili<br>
+	<input type="checkbox" name="F1" value="">Swedish<br>
+	<input type="checkbox" name="F1" value="">Tajik<br>
+	<input type="checkbox" name="F1" value="">Tamil<br>
+	<input type="checkbox" name="F1" value="">Telugu<br>
+	<input type="checkbox" name="F1" value="">Thai<br>
+	<input type="checkbox" name="F1" value="">Turkish<br>
+	<input type="checkbox" name="F1" value="">Ukrainian<br>
+	<input type="checkbox" name="F1" value="">Urdu<br>
+	<input type="checkbox" name="F1" value="">Uzbek<br>
+	<input type="checkbox" name="F1" value="">Vietnamese<br>
+	<input type="checkbox" name="F1" value="">Welsh<br>
+	<input type="checkbox" name="F1" value="">Western Frisian<br>
+	<input type="checkbox" name="F1" value="">Xhosa<br>
+	<input type="checkbox" name="F1" value="">Yiddish<br>
+	<input type="checkbox" name="F1" value="">Yoruba<br>
+	<input type="checkbox" name="F1" value="">Zulu<br>
+</form>
+<HR>
+<H2 id="ADCOUNT">Ad count</H2>
+<form action="/action_page.php">
+  Quantity (between 1 and 40): <input type="number" name="quantity" min="1" max="40" value="20">
+  <input type="submit">
+</form>
+<HR>
+<H2 id="FOOD">Food and drink</H2> 
+<img src="FOOD_ICON.png" alt="FOOD" width="256" height="256">
+<H2>Food and drink ad settings</H2>
+<HR>
+<form>
+  <input type="radio" name="" value=""> Enable<br>
+  <input type="radio" name="" value=""> Disable<br>
+</form> 
+<HR>
+<H2 id="BY_RESTAURANT">By Restaurant</H2>
+ <form>
+  <input type="checkbox" name="F1" value=""> McDonald's<br>
+  <input type="checkbox" name="F1" value=""> Burger King<br>
+  <input type="checkbox" name="F1" value=""> Subway<br>
+  <input type="checkbox" name="F1" value=""> Wendy's<br>
+  <input type="checkbox" name="F1" value=""> 5 guys<br>
+  <input type="checkbox" name="F1" value=""> Jack-in-the-box<br>
+  <input type="checkbox" name="F1" value=""> Dairy Queen<br>
+  <input type="checkbox" name="F1" value=""> Jimmy Johns<br>
+  <input type="checkbox" name="F1" value=""> KFC<br>
+  <input type="checkbox" name="F1" value=""> Arby's<br>
+  <input type="checkbox" name="F1" value=""> Denny's<br>
+  <input type="checkbox" name="F1" value=""> Carls Jr.<br>
+  <input type="checkbox" name="F1" value=""> Outback Steakhoue<br>
+  <input type="checkbox" name="F1" value=""> Cracker Barrel<br>
+  <input type="checkbox" name="F1" value=""> placeholder<br>
+  <!-- <input type="checkbox" name="F1" value=""> <br> !-->
+  <input type="checkbox" name="F1" value=""> Other<br>
+  <input type="checkbox" name="SA" value="All"> Enable all/any<br>
+</form> 
+<HR>
+<H2 id="FOOD_AD_SPECS">Specifications</H2>
+ <form>
+  <p id="MEAT">Meat</p>
+  <input type="checkbox" name="F1" value=""> Contains Chicken Meat<br>
+  <input type="checkbox" name="F1" value=""> Contains Cow Meat<br>
+  <input type="checkbox" name="F1" value=""> Contains Duck Meat<br>
+  <input type="checkbox" name="F1" value=""> Contains Pig Meat<br>
+  <input type="checkbox" name="F1" value=""> Contains Turkey Meat<br>
+  <input type="checkbox" name="F1" value=""> Contains Horse Meat<br>
+  <input type="checkbox" name="F1" value=""> Any<br>     
+  <HR>
+  <p id="VEGETARIAN_VEGAN">Vegetarian/vegan</p>
+  <input type="checkbox" name="F1" value=""> Contains Dairy products<br>
+  <input type="checkbox" name="F1" value=""> Contains eggs<br>
+  <input type="checkbox" name="F1" value=""> Contains Cheese<br>
+  <input type="checkbox" name="F1" value=""> Contains Tofu<br>  
+  <input type="checkbox" name="F1" value=""> Any<br>   
+  <HR>
+  <p id="NATURAL_INGREDIENTS">Natural</p>
+  <input type="checkbox" name="F1" value=""> Contains nuts<br>
+  <input type="checkbox" name="F1" value=""> Contains Water<br>
+  <input type="checkbox" name="F1" value=""> Contains Salt<br>
+  <input type="checkbox" name="F1" value=""> Contains Vegetables<br>
+  <input type="checkbox" name="F1" value=""> Contains Fruits<br>
+  <input type="checkbox" name="F1" value=""> Any<br>   
+  <HR>
+  <p id="SEAFOOD">Seafood</p>
+  <input type="checkbox" name="F1" value=""> Contains Seafood<br>
+  <input type="checkbox" name="F1" value=""> Contains Lobster<br>
+  <input type="checkbox" name="F1" value=""> Contains Salmon<br>
+  <input type="checkbox" name="F1" value=""> Contains Shrimp<br>
+  <input type="checkbox" name="F1" value=""> Contains Tuna<br>
+  <input type="checkbox" name="F1" value=""> Any<br>   
+  <HR>
+  <p id="ADULT_FOOD">21+</p>
+  <input type="checkbox" name="F1" value=""> Contains Alcohol<br>
+  <input type="checkbox" name="F1" value=""> Any<br>   
+  <HR>
+  <p id="FOODGRAIN">Grain</p>
+  <input type="checkbox" name="F1" value=""> Contains Wheat<br>
+  <input type="checkbox" name="F1" value=""> Contains Rice<br>
+  <input type="checkbox" name="F1" value=""> Contains Sesame Seeds<br>
+  <input type="checkbox" name="F1" value=""> Any<br>   
+  <HR>
+  <p id="SNACKS">Snacking</p>
+  <input type="checkbox" name="F1" value=""> Contains Soda<br>
+  <input type="checkbox" name="F1" value=""> Contains Sugar<br>
+  <input type="checkbox" name="F1" value=""> Contains Diet drinks<br>
+  <input type="checkbox" name="F1" value=""> Contains Energy drinks<br>
+  <input type="checkbox" name="F1" value=""> Contains Chips<br>
+  <input type="checkbox" name="F1" value=""> Any<br>   
+  <HR>
+  <p id="FOOD_ADDONS">Add-ons</p>
+  <input type="checkbox" name="F1" value=""> Contains Peppers<br>
+  <input type="checkbox" name="F1" value=""> Contains Condiments<br>
+  <input type="checkbox" name="F1" value=""> Contains Ketchup<br>
+  <input type="checkbox" name="F1" value=""> Any<br>   
+  <HR>
+  <p id="DISPLAY">Display</p>
+  <input type="checkbox" name="F1" value=""> Showcases the food<br> 
+  <input type="checkbox" name="F1" value=""> Talks about the food <br>
+  <input type="checkbox" name="F1" value=""> ASMR <br>
+  <input type="checkbox" name="F1" value=""> Contains music <br>
+  <input type="checkbox" name="F1" value=""> Contains Sound effects <br>
+  <input type="checkbox" name="F1" value=""> Shows the food being made <br>
+  <input type="checkbox" name="F1" value=""> Shows the food being eaten<br>
+  <input type="checkbox" name="F1" value=""> Shows feast<br>
+  <input type="checkbox" name="F1" value=""> Shows bones<br>
+  <input type="checkbox" name="F1" value=""> Shows raw meat<br>
+  <input type="checkbox" name="F1" value=""> Shows guts<br>
+  <input type="checkbox" name="F1" value=""> Shows fire<br>
+  <input type="checkbox" name="F1" value=""> Shows silverware<br>
+  <input type="checkbox" name="F1" value=""> Shows feast<br>
+  <input type="checkbox" name="F1" value=""> Shows animal legs<br>
+  <input type="checkbox" name="F1" value=""> Shows live animals<br>
+  <input type="checkbox" name="F1" value=""> Shows how the food is made<br>
+  <input type="checkbox" name="F1" value=""> Any<br>   
+  <HR>
+  <p id="COOKING_STYLE">Cooking style</p>
+  <input type="checkbox" name="F1" value=""> Hands on<br> 
+  <input type="checkbox" name="F1" value=""> Microwave<br>
+  <input type="checkbox" name="F1" value=""> Oven<br>
+  <input type="checkbox" name="F1" value=""> Grill<br>
+  <input type="checkbox" name="F1" value=""> Rotisserie<br> 
+  <input type="checkbox" name="F1" value=""> Spit<br>
+  <input type="checkbox" name="F1" value=""> Stove<br>
+  <input type="checkbox" name="F1" value=""> Frying pan<br>
+  <input type="checkbox" name="F1" value=""> Pre-made<br>  
+  <input type="checkbox" name="F1" value=""> Any<br>   
+  <HR>
+  <p id="KEYWORDS">Keywords</p>
+  <input type="checkbox" name="F1" value=""> Moist<br> 
+  <input type="checkbox" name="F1" value=""> Juicy<br>
+  <input type="checkbox" name="F1" value=""> Tender<br>
+  <input type="checkbox" name="F1" value=""> Delicious<br>
+  <input type="checkbox" name="F1" value=""> Mouth Watering<br>
+  <input type="checkbox" name="F1" value=""> Golden<br>
+  <input type="checkbox" name="F1" value=""> Roasted<br>
+  <input type="checkbox" name="F1" value=""> Perfection<br>
+  <input type="checkbox" name="F1" value=""> Rotisserie<br> 
+  <input type="checkbox" name="F1" value=""> Finger-licking good<br> 
+  <input type="checkbox" name="F1" value=""> Any<br>     
+  <p id="FOODSPEC_SELECTION">Selection</p>
+  <input type="checkbox" name="F1" value=""> >mystery< <br>
+  <input type="checkbox" name="SA" value="All"> Enable all/any<br>
+</form> 
+<HR>
+<HR>
+<H2 id="POLL">Political ads</H2>
+<img src="Political_Icon.png" alt="POLL" width="256" height="256">
+<H2>Political ad settings</H2>
+<HR>
+<H3>Notice:</H3>
+<H3>By default, Political ads are disabled. You can enable them if you wish.</H3>
+<HR>
+<form>
+  <input type="radio" name="" value=""> Enable<br>
+  <input type="radio" name="" value="" checked> Disable<br>
+</form> 
+<HR>
+<H2 id="POLL_POSITION">By position</H2>
+ <form>
+  <input type="checkbox" name="F1" value=""> Any/all<br>
+  <input type="checkbox" name="F1" value=""> Anti<br>
+  <input type="checkbox" name="F1" value=""> Presidential<br>
+  <input type="checkbox" name="F1" value=""> Office<br>
+  <input type="checkbox" name="F1" value=""> Governer<br>
+  <input type="checkbox" name="F1" value=""> Senate<br>
+  <input type="checkbox" name="F1" value=""> Movement<br>
+</form> 
+<HR>
+<H2 id="POLL_COUNTRY">Country</H2>
+ <form>
+  <input type="checkbox" name="F1" value=""> Any/all<br>
+  <input type="checkbox" name="F1" value=""> United States of America<br>
+  <input type="checkbox" name="F1" value=""> Mexico<br>
+  <input type="checkbox" name="F1" value=""> European Union<br>
+  <input type="checkbox" name="F1" value=""> Australia<br>
+  <!-- <input type="checkbox" name="F1" value=""> <br> !-->
+  <input type="checkbox" name="F1" value=""> Other<br>
+</form> 
+<HR>
+<H2 id="USA_POLL_PARTY">Party (United States of America)</H2>
+ <form>
+  <input type="checkbox" name="F1" value=""> Any/all<br>
+  <input type="checkbox" name="F1" value=""> Democrat<br>
+  <input type="checkbox" name="F1" value=""> Republican<br>
+  <input type="checkbox" name="F1" value=""> Other<br>
+</form>
+<HR> 
+<H2 id="USA_PRESIDENTS">By US President (USA Ads only)</H2>
+ <form>
+  <input type="checkbox" name="F1" value=""> All/any<br>
+  <input type="checkbox" name="F1" value=""> Donald J. Trump (45)<br>
+  <input type="checkbox" name="F1" value=""> Barack H. Obama (44)<br>
+  <input type="checkbox" name="F1" value=""> George W. Bush (43)<br>
+  <input type="checkbox" name="F1" value=""> Bill J. Clinton (42)<br>
+  <input type="checkbox" name="F1" value=""> George H. W. Bush (41)<br>
+  <input type="checkbox" name="F1" value=""> Ronald Reagan (40)<br>
+  <input type="checkbox" name="F1" value=""> Jimmy Carter (39)<br>
+  <input type="checkbox" name="F1" value=""> Gerald Ford (38)<br>
+  <input type="checkbox" name="F1" value=""> Richard M. Nixon (37)<br>
+  <input type="checkbox" name="F1" value=""> Lyndon B. Johnson (36)<br>
+  <input type="checkbox" name="F1" value=""> John F. Kennedy (35)<br>
+</form>
+<HR>
+<H2 id="TECH">Technical ads</H2>
+<img src="tech-icon.png" alt="TECH_ICON" width="256" height="256">
+<H2>Technological ad settings</H2>
+<HR>
+<form>
+  <input type="radio" name="" value="" checked> Enable<br>
+  <input type="radio" name="" value=""> Disable<br>
+</form> 
+<HR>
+<H2 id="TECH_COMPANY">By company</H2>
+ <form>
+  <input type="checkbox" name="F1" value=""> Any/all<br>
+  <input type="checkbox" name="F1" value=""> Microsoft<br>
+  <input type="checkbox" name="F1" value=""> Google<br>
+  <input type="checkbox" name="F1" value=""> Apple<br>
+  <input type="checkbox" name="F1" value=""> Dell<br>
+  <input type="checkbox" name="F1" value=""> IBM<br>
+  <input type="checkbox" name="F1" value=""> Intel<br>
+  <input type="checkbox" name="F1" value=""> HP<br>
+</form>
+<HR>
+<H2 id="TECH_PRODUCT_USAGE">Product usage</H2> 
+<form>
+  <input type="checkbox" name="F1" value=""> Any/all<br>
+  <input type="checkbox" name="F1" value=""> Software<br>
+  <input type="checkbox" name="F1" value=""> Hardware<br>
+  <input type="checkbox" name="F1" value=""> Service<br>
+</form>
+<HR>
+<H2 id="TECH_PRODUCT_TYPE">Product type</H2>
+<form>  
+  <input type="checkbox" name="F1" value="">Any/all<br>
+  <input type="checkbox" name="F1" value="">Game<br>
+  <input type="checkbox" name="F1" value="">Operating System<br>
+  <input type="checkbox" name="F1" value="">VPN<br>
+  <input type="checkbox" name="F1" value="">Website<br>
+  <input type="checkbox" name="F1" value="">Office<br>
+  <input type="checkbox" name="F1" value="">Hard Drive</br>
+  <input type="checkbox" name="F1" value="">Smartphone</br>
+  <input type="checkbox" name="F1" value="">Tablet</br>
+  <input type="checkbox" name="F1" value="">Other</br>
+</form>
+<HR>
+<H2 id="TECH_PRODUCT_PRICE">Price</H2>
+<form>
+  <input type="checkbox" name="F1" value="">Any/all<br>
+  <input type="checkbox" name="F1" value="" checked>Free</br>
+  <input type="checkbox" name="F1" value="">0.01-0.99</br>
+  <input type="checkbox" name="F1" value="">1.00-1.99</br>
+  <input type="checkbox" name="F1" value="">2.00-2.99</br>
+  <input type="checkbox" name="F1" value="">3.00-3.99</br>
+  <input type="checkbox" name="F1" value="">4.00-4.99</br>
+  <input type="checkbox" name="F1" value="">5.00-9.99</br>
+  <input type="checkbox" name="F1" value="">10.00-14.99</br>
+  <input type="checkbox" name="F1" value="">15.00-19.99</br>
+  <input type="checkbox" name="F1" value="">20.00-29.99</br>
+  <input type="checkbox" name="F1" value="">30.00-39.99</br>
+  <input type="checkbox" name="F1" value="">40.00-49.99</br>
+  <input type="checkbox" name="F1" value="">50.00-59.99</br>
+  <input type="checkbox" name="F1" value="">60.00-69.99</br>
+  <input type="checkbox" name="F1" value="">70.00-79.99</br>
+  <input type="checkbox" name="F1" value="">80.00-89.99</br>
+  <input type="checkbox" name="F1" value="">90.00-99.99</br>
+  <input type="checkbox" name="F1" value="">100.00-119.99</br>
+  <input type="checkbox" name="F1" value="">120.00-149.99</br>
+  <input type="checkbox" name="F1" value="">150.00-199.99</br>
+  <input type="checkbox" name="F1" value="">200.00-249.99</br>
+  <input type="checkbox" name="F1" value="">250.00-299.99</br>
+  <input type="checkbox" name="F1" value="">300.00-349.99</br>
+  <input type="checkbox" name="F1" value="">350.00-399.99</br>
+  <input type="checkbox" name="F1" value="">400.00-499.99</br>
+  <input type="checkbox" name="F1" value="">500.00-599.99</br>
+  <input type="checkbox" name="F1" value="">600.00-699.99</br>
+  <input type="checkbox" name="F1" value="">700.00-799.99</br>
+  <input type="checkbox" name="F1" value="">800.00-899.99</br>
+  <input type="checkbox" name="F1" value="">900.00-999.99</br>
+  <input type="checkbox" name="F1" value="">1000.00-1199.99</br>
+  <input type="checkbox" name="F1" value="">1200.00-1499.99</br>
+  <input type="checkbox" name="F1" value="">1500.00-1999.99</br>
+  <input type="checkbox" name="F1" value="">2000.00-2999.99</br>
+  <input type="checkbox" name="F1" value="">3000.00-3999.99</br>
+  <input type="checkbox" name="F1" value="">4000.00-4999.99</br>
+  <input type="checkbox" name="F1" value="">5000.00+</br>
+</form> 
+<HR>
+<H2 id="PHRASE">Phrase used</H2>
+<form>
+  <input type="checkbox" name="F1" value="">Any/all<br>
+  <input type="checkbox" name="F1" value="">Only %<br>
+  <input type="checkbox" name="F1" value="">Can you<br>
+</form> 
+<HR>
+<H2 id="GENRE">Game Genre</H2>
+<form>
+  <input type="checkbox" name="F1" value="">Any/all<br>
+  <input type="checkbox" name="F1" value="">Puzzle<br>  
+  <input type="checkbox" name="F1" value="">Sandbox<br>
+  <input type="checkbox" name="F1" value="">Open-world<br>
+  <input type="checkbox" name="F1" value="">First Person Shooter<br> 
+  <input type="checkbox" name="F1" value="">Roleplaying<br>
+  <input type="checkbox" name="F1" value="">Plarformer<br> 
+  <input type="checkbox" name="F1" value="">Battle Royale<br>
+  <input type="checkbox" name="F1" value="">Construction<br>
+  <input type="checkbox" name="F1" value="">Clicker<br>
+  <input type="checkbox" name="F1" value="">VR<br>
+  <input type="checkbox" name="F1" value="">Other<br>    
+</form> 
+<HR>
+<H2 id="GAMES">Game List</H2>
+<form>
+  <input type="checkbox" name="F1" value="">Any/all<br>
+  <input type="checkbox" name="F1" value="">Other</br>
+  <HR>
+  <H3>A section</H3>
+  <input type="checkbox" name="F1" value="">Angry Birds<br>  
+  <HR>
+  <H3>B section</H3>
+  <input type="checkbox" name="F1" value="">Boom Beach<br> 
+  <input type="checkbox" name="F1" value="">Brawl Stars<br>
+  <input type="checkbox" name="F1" value="">Bejeweled<br>    
+  <input type="checkbox" name="F1" value="">Bejeweled<br>  
+  <input type="checkbox" name="F1" value="">Bejeweled 2<br>  
+  <input type="checkbox" name="F1" value="">Bejeweled 3<br>  
+  <input type="checkbox" name="F1" value="">Bejeweled Twist<br>  
+  <HR>
+  <H3>C section</H3>
+  <input type="checkbox" name="F1" value="">Clash of clans<br>  
+  <input type="checkbox" name="F1" value="">Clash Royale<br>
+  <input type="checkbox" name="F1" value="">Chuzzles<br>
+  <H3>D section</H3>
+  <input type="checkbox" name="F1" value="">-D<br>   
+  <H3>E section</H3>
+  <input type="checkbox" name="F1" value="">-E<br>
+  <H3>F section</H3>
+  <input type="checkbox" name="F1" value="">-F<br>  <!-- nothing to respect here !-->
+  <H3>G section</H3>
+  <input type="checkbox" name="F1" value="">-G<br>
+  <H3>H section</H3>
+  <input type="checkbox" name="F1" value="">-H<br>
+  <H3>I section</H3>
+  <input type="checkbox" name="F1" value="">-I<br>
+  <H3>J section</H3>
+  <input type="checkbox" name="F1" value="">-J<br>
+  <H3>K section</H3>
+  <input type="checkbox" name="F1" value="">-K<br>
+  <H3>L section</H3>
+  <input type="checkbox" name="F1" value="">-L<br>
+  <H3>M section</H3>
+  <input type="checkbox" name="F1" value="">-M<br>
+  <H3>N section</H3>
+  <input type="checkbox" name="F1" value="">-N<br>
+  <H3>O section</H3>
+  <input type="checkbox" name="F1" value="">-O<br>
+  <H3>P section</H3>
+  <input type="checkbox" name="F1" value="">-P<br>
+  <H3>Q section</H3>
+  <input type="checkbox" name="F1" value="">-Q<br>
+  <H3>R section</H3>
+  <input type="checkbox" name="F1" value="">-R<br>
+  <H3>S section</H3>
+  <input type="checkbox" name="F1" value="">-S<br>
+  <H3>T section</H3>
+  <input type="checkbox" name="F1" value="">-T<br>
+  <H3>U section</H3>
+  <input type="checkbox" name="F1" value="">-U<br>
+  <H3>V section</H3>
+  <input type="checkbox" name="F1" value="">-V<br>
+  <H3>W section</H3>
+  <input type="checkbox" name="F1" value="">-W<br>
+  <H3>X section</H3>
+  <input type="checkbox" name="F1" value="">-X<br>
+  <H3>Y section</H3>
+  <input type="checkbox" name="F1" value="">-Y<br>
+  <H3>Z section</H3>
+  <input type="checkbox" name="F1" value="">-Z<br>
+  <HR>
+  <H2>Notice: this list is still expanding. Please submit ads for games to keep the list going (submit currently unavailable)</H2>
+</form> 
+<HR>
+<H2 id="ADVERTISER_SETTINGS">Advertiser settings</H2>
+<img src="Gear-icon.png" alt="⚙" width="256" height="256">
+<H2>Advertiser settings</H2>
+<HR>
+<H2 id="ADVERTISER:ADTYPE">Ad type</H2>
+<p>Explain the format of your advertisement</p>
+<form>
+	<input type="radio" name="F1" value="">Video ad<br>
+	<input type="radio" name="F1" value="">Radio ad (audio only)<br>
+	<input type="radio" name="F1" value="">Image ad<br>
+	<input type="radio" name="F1" value="">Image ad (animated GIF)<br>
+</form>
+<HR>
+<H2 id="ADVERTISER:BLACKLIST">Blacklisting</H2>
+<p>Specify content types that you would like your ads blacklisted on. (not shown on)</p>
+<form> <!-- these options are still expanding !-->
+	<input type="checkbox" name="F1" value="" disabled checked>All/any/specified<br> 
+	<input type="checkbox" name="F1" value="">Gaming videos (no commentary)<br>
+	<input type="checkbox" name="F1" value="">Gaming videos (with commentary)<br>	
+	<input type="checkbox" name="F1" value="">Music videos (no commentary)<br>
+	<input type="checkbox" name="F1" value="">Music videos (with commentary)<br>
+	<input type="checkbox" name="F1" value="">Sprite animations (no commentary)<br>
+	<input type="checkbox" name="F1" value="">Sprite animations (with commentary)<br>
+	<input type="checkbox" name="F1" value="">Storytime animations (with commentary)<br>
+	<input type="checkbox" name="F1" value="">Vlogs (obvious: commentary)<br>
+	<input type="checkbox" name="F1" value="">Other ads (games)<br>
+	<input type="checkbox" name="F1" value="">Unboxing videos (no commentary)<br>
+	<input type="checkbox" name="F1" value="">Unboxing videos (with commentary)<br>
+	<input type="checkbox" name="F1" value="">Stock images of nature (SFW)<br>
+	<input type="checkbox" name="F1" value="">Stock images of nature (NSFW)<br>
+	<input type="checkbox" name="F1" value="">Movie trailers<br>
+	<input type="checkbox" name="F1" value="">...<br>
+</form>
+<HR>
+<H1 id="OTHER">Other</H1>
+<details>
+	<summary id="Snapshots">View older versions of this page</summary>
+	<HR>
+	<p id="SNAPSHOTS1-10">Snapshots 1-10</p>
+	<p><a href="AdSystem_Home_Snapshot1.html">Snapshot 1</a></p>
+	<p><a href="AdSystem_Home_Snapshot2.html">Snapshot 2</a></p>
+	<p><a href="AdSystem_Home_Snapshot3.html">Snapshot 3</a></p>
+	<p><a href="AdSystem_Home_Snapshot4.html">Snapshot 4</a></p>
+	<p><a href="AdSystem_Home_Snapshot5.html">Snapshot 5</a></p>
+	<p><a href="AdSystem_Home_Snapshot6.html">Snapshot 6</a></p>
+	<p><a href="AdSystem_Home_Snapshot7.html">Snapshot 7</a></p>
+	<p><a href="AdSystem_Home_Snapshot8.html">Snapshot 8</a></p>
+	<!-- Notice (about snapshot 8)
+	I was having a difficult time focusing yesterday, and I wasn't able to make a significant update for the ad system. I didn't snapshot it until the next day (April 6th 2019)
+	!-->
+	<p><a href="AdSystem_Home_Snapshot9.html">Snapshot 9</a></p>
+	<p><a href="AdSystem_Home_Snapshot10.html">Snapshot 10</a></p>
+	<HR>
+	<p id="SNAPSHOTS11-20">Snapshots 11-20</p>
+	<p><a href="AdSystem_Home_Snapshot11.html">Snapshot 11</a></p>
+	<p><a href="AdSystem_Home_Snapshot12.html">Snapshot 12</a></p>
+	<p><a href="AdSystem_Home_Snapshot13.html">Snapshot 13</a></p>
+	<p><a href="AdSystem_Home_Snapshot14.html">Snapshot 14</a></p>
+	<p><a href="AdSystem_Home_Snapshot15.html">Snapshot 15</a></p>
+	<p><a href="AdSystem_Home_Snapshot16.html">Snapshot 16</a></p>
+	<p><a href="AdSystem_Home_Snapshot17.html">Snapshot 17</a></p>
+	<p><a href="AdSystem_Home_Snapshot18.html">Snapshot 18</a></p>
+	<p><a href="AdSystem_Home_Snapshot19.html">Snapshot 19</a></p>
+	<p><a href="AdSystem_Home_Snapshot20.html">Snapshot 20</a></p>
+	<HR>
+</details>
+<HR>
+<details>
+	<summary>Special characters used on this page</summary>
+	<HR>
+	<p id="LIST_OF_SPECIAL_CHARS_USED">List of special characters used on this page</p>
+	<p>⚙ Gear Emoji</p>
+	<HR>
+	<p>🍏 Green Apple Emoji</p>
+	<HR>
+	<p>💦 Sweat Droplets Emoji</p>
+	<HR>
+	<p>💁 Information Desk Person Emoji</p>
+	<HR>
+	<p>👨 Man Emoji</p>
+	<HR>
+	<p>🖥 Desktop Computer Emoji</p>
+	<HR>
+	<p>💻 Personal Computer Emoji</p>
+	<HR>
+	<p>Page encoding: UTF-16</p>
+	<HR>
+</details>
+<HR>
+</BODY>
+</HTML>
+<!--- end of script !---
